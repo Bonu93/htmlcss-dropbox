@@ -15,21 +15,61 @@
     clear: both;
 }
 
+.bg-sky {
+    background-color: #b4d0e7;
+}
+
 .col {
     float: left;
+}
+
+.w30 {
+    width: 30%;
 }
 
 .w50 {
     width: 50%;
 }
 
+.w70 {
+    width: 70%;
+}
+
+.mb150 {
+    margin-bottom: 150px;
+}
 .blue-btn {
     display: inline-block;
     color: #fff;
     background-color: #0061ff;
-    padding: 5px 20px;
-    border: none;
+    text-decoration: none; 
+    line-height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
+.small {
+    line-height: 30px;
+    font-size: 13px;
+}
+
+h2 {
+    margin-bottom: 60px;
+    font-size: 40px;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+.col-3 {
+    width: calc((100% - 120px) / 3)
+}
+
+.mx60 {
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 /* DEBUG  */
@@ -40,6 +80,14 @@
 }
 
 /* HEADER  */
+
+header {
+    /* position: fixed; */
+    height: 80px;
+    background-color: #fff;
+    width: 100%;
+    z-index: 1;
+}
 
 nav > .col:last-of-type {
     float: right;
@@ -75,3 +123,40 @@ nav a {
     color: #000;
     font-weight: 500;
 }
+
+/* HERO  */
+
+h1 {
+    font-size: 80px;
+    margin-bottom: 50px;
+}
+
+.hero img {
+    max-width: 100%;
+}
+.hero-container {
+    width: 90%;
+    margin: auto;
+    position: relative; 
+    top: 100px;
+}
+
+.hero p {
+    margin-bottom: 30px;
+
+}
+
+.hero-container .cta {
+    margin-bottom: 10px;
+}
+
+.hero-container i{
+    display: block;
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+
+
+
+
