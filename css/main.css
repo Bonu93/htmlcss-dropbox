@@ -27,8 +27,16 @@
     width: 30%;
 }
 
+.w40 {
+    width: 40%;
+}
+
 .w50 {
     width: 50%;
+}
+
+.w60 {
+    width: 60%;
 }
 
 .w70 {
@@ -47,6 +55,18 @@
     line-height: 40px;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.del-btn {
+    display: inline-block;
+    color: #000;
+    font-size: 14px;
+    background-color: transparent;
+    text-decoration: none; 
+    line-height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid #000;
 }
 
 .small {
@@ -220,6 +240,22 @@ h1 {
 .fee hr {
     width: 50px;
     color: #ccc;
+}
+
+/* PARTNER SECTION  */
+
+.partner img {
+    max-width: 100%;
+}
+
+.partner .w40 {
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.partner p {
+    line-height: 25px;
+    margin-bottom: 30px;
 }
 
 
