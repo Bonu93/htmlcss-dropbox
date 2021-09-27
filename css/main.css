@@ -196,8 +196,11 @@ h1 {
 
 /* PRODUCTS  */
 
-.card-product {
+.card  {
     width: calc((100% - 120px) / 3);
+}
+
+.minheight {
     min-height: 1200px;
 }
 
@@ -257,6 +260,14 @@ h1 {
     line-height: 25px;
     margin-bottom: 30px;
 }
+
+/* BUSINESS FEATURES SECTION  */
+
+.card img {
+    max-width: 100%;
+}
+
+
 
 
 
