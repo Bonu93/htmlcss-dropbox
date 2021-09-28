@@ -7,6 +7,10 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* UTILITIES  */
 
 .clearfix::after {
@@ -198,7 +202,7 @@ h4 {
 /* HEADER  */
 
 header {
-    /* position: fixed; */
+    position: fixed;
     height: 80px;
     background-color: #fff;
     width: 100%;
@@ -240,11 +244,20 @@ nav a {
     font-weight: 500;
 }
 
+.menu li:hover {
+    line-height: 78px;
+    border-bottom: 2px solid #0061ff;
+}
+
 /* HERO  */
 
 h1 {
     font-size: 70px;
     margin-bottom: 50px;
+}
+
+.hero {
+    padding-top: 80px; 
 }
 
 .hero img {
@@ -266,10 +279,15 @@ h1 {
     margin-bottom: 10px;
 }
 
-.hero-container i{
+.hero-container .fa-arrow-down{
     display: block;
     font-size: 40px;
     margin-top: 50px;
+}
+
+.hero-container .arrow{
+    text-decoration: none;
+    color: inherit;
 }
 
 /* PRODUCTS  */
@@ -365,6 +383,24 @@ h1 {
     width: 30%;
 }
 
+.client {
+    cursor: pointer;
+}
+
+.client:active {
+    animation: bordering .3s linear forwards;
+}
+
+@keyframes bordering {
+    0% {
+        border: 1px solid #ccc;
+    }
+    100% {
+        border: 10px solid #ccc;
+    }
+    
+}
+
 /* JUMBO SECTION  */
 
 .jumbo {
@@ -397,6 +433,27 @@ h1 {
 .faq .col:last-child {
     text-align: right;
 }
+
+.accordeon {
+    display: none;
+}
+
+.fa-chevron-up {
+    display: none;
+}
+
+.faq:hover .accordeon {
+    display: block;
+}
+
+.faq:hover .fa-chevron-up{
+    display: inline-block;
+}
+
+.faq:hover .fa-chevron-down{
+    display: none;
+}
+
 
 /* FOOTER */
 
