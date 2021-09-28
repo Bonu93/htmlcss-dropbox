@@ -121,6 +121,12 @@ h4 {
     margin-bottom: 50px;
 }
 
+.my100 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
 .ptl50 {
     padding-top: 50px;
     padding-left: 50px;
@@ -411,6 +417,18 @@ footer ul li {
 footer ul li a {
     text-decoration: none;
     color: inherit;
+    font-size: 14px;
+}
+
+footer hr {
+    color: white;
+    width: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.language {
+    color: #999999;
     font-size: 14px;
 }
 
